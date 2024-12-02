@@ -1,0 +1,95 @@
+<!DOCTYPE html> <!--Versão mais autualizada do HTML V5-->
+<html lang="pt-br"> <!-- TAG HTML E IDIOMA-->
+
+<head> <!--Configurações do site-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <meta charset="UTF-8"> <!--Padrão dos caracteres usado no site-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <title>Netflix</title>
+</head>
+
+<body>
+   <ul> <!--Lista-->
+      <li> <!--Itens da lista-->
+         <img src="img/logo.png" class="imagem-topo">
+      </li>
+      <li>
+         <img src="img/avatar.png" class="imagem-topo">
+      </li>
+
+   </ul>
+   <div class="capa">
+      <h1 class="capa-titulo">La casa de papel</h1>
+      <p class="capa-descricao">Oito ladrões se trancam com reféns na Casa da Moeda da Espanha. Seu líder manipula a polícia para realizar um
+         plano. Será o maior roubo da história, ou uma missão em vão?
+      </p>
+      <a class="link-assistir">Assistir</a>
+      <a class="link-info">Mais Informações</a>
+
+   </div>
+
+   <video class="video" src="video/casa-de-papel.mp4" autoplay muted loop></video>
+   <button class="botao-som">🔊</button>
+
+   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <h2 class="titulo-carrossel">Principais filmes e séries</h2>
+
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img src="img/abyss.jpg" class="imagem-filmes">
+            <img src="img/chokehold.jpg" class="imagem-filmes">>
+            <img src="img/equalizer.jpg" class="imagem-filmes">>
+            <img src="img/f1.jpg" class="imagem-filmes">>
+
+         </div>
+         <div class="carousel-item">
+            <img src="img/hunter.jpg" class="imagem-filmes">>
+            <img src="img/lift.jpg" class="imagem-filmes">
+            <img src="img/jaula.jpg" class="imagem-filmes">
+            <img src="img/moonfall.jpg" class="imagem-filmes">
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+         </a>
+      </div>
+
+      <audio class="audio" src="audio/tudum-netflix-sound.mp3"></audio>
+
+      <div class="modal">
+
+      <div class="modal-conteudo">
+
+      <h2>La Casa De Papel</h2>
+      <p>Oito ladrões se trancam com reféns na Casa da Moeda da Espanha. Seu líder manipula a polícia para realizar um
+         plano. Será o maior roubo da história, ou uma missão em vão?</p>
+<p>Gênero : <b>Ação</b></p>
+<p>Ano de lançamento: <b>2017</b></p>
+
+      </div>
+
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+         crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+         crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+         crossorigin="anonymous"></script>
+
+         <script src="scripts.js">
+
+         </script>
+      
+</body>
+
+</html>
